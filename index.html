@@ -36,7 +36,6 @@
             box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
             max-width: 700px;
             width: 100%;
-            /* A borda agora será branca */
             border: 1px solid rgba(255, 255, 255, 0.2); /* Borda sutil branca */
         }
 
@@ -58,11 +57,9 @@
         h1 {
             font-family: 'Montserrat', sans-serif;
             font-weight: 600;
-            /* Cor do título agora é branca */
             color: var(--cor-texto_claro);
             font-size: 2.2em;
             margin-bottom: 20px;
-            /* Sombra mais sutil para o texto branco */
             text-shadow: 0 0 8px rgba(255, 255, 255, 0.15);
             letter-spacing: 1px;
         }
@@ -70,30 +67,12 @@
         p {
             font-size: 1.05em;
             line-height: 1.7;
-            margin-bottom: 25px;
+            margin-bottom: 25px; /* Manter um pouco de margem para o parágrafo final */
             color: var(--cor-cinza_suave);
             font-weight: 300;
         }
 
-        .contact-info {
-            font-size: 0.95em;
-            margin-top: 30px;
-            color: var(--cor-texto_claro); /* Mantido em branco para boa leitura */
-        }
-
-        .contact-info a {
-            /* Cor do link agora é branca */
-            color: var(--cor-texto_claro);
-            text-decoration: none;
-            font-weight: 600;
-            /* Adiciona um leve sublinhado ou brilho ao passar o mouse para indicar que é um link */
-            transition: color 0.3s ease;
-        }
-
-        .contact-info a:hover {
-            text-decoration: underline;
-            color: rgba(255, 255, 255, 0.8); /* Clareia um pouco ao passar o mouse */
-        }
+        /* A seção .contact-info e seus estilos foram removidos */
 
         /* Responsividade para telas menores */
         @media (max-width: 600px) {
@@ -131,11 +110,6 @@
         <p>
             Agradecemos pela compreensão e esperamos você em breve!
         </p>
-
-        <div class="contact-info">
-            Para dúvidas ou informações, entre em contato: <br>
-            <a href="mailto:contato@grupodeempresarios.com.br">contato@grupodeempresarios.com.br</a>
-        </div>
     </div>
 </body>
 </html>
